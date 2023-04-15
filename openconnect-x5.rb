@@ -6,6 +6,10 @@ class OpenconnectX5 < Formula
   license "LGPL-2.1-only"
   revision 2
 
+  bottle do
+    sha256 arm64_ventura: "4ea75910149826533dfac5d5609cb813dc2e9d953380d2d3c4cb0aaa69f74f07"
+  end
+
   depends_on "autoconf" => :build
   depends_on "automake" => :build
   depends_on "libtool" => :build
