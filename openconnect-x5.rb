@@ -4,7 +4,7 @@ class OpenconnectX5 < Formula
   url "https://gitlab.com/L11R/openconnect/-/archive/v9.02/openconnect-v9.02.tar.gz"
   sha256 "4c02b07b06531ad48fddd1067e4ebc1358ae9978a24fd73ab09637c399e79cb5"
   license "LGPL-2.1-only"
-  revision 3
+  revision 4
 
   bottle do
     sha256 arm64_ventura: "4ea75910149826533dfac5d5609cb813dc2e9d953380d2d3c4cb0aaa69f74f07"
